@@ -112,34 +112,34 @@ Request body
 }
 
 Responses
-200 OK – login successful
-400 Bad Request – missing/invalid input
-401 Unauthorized – invalid credentials
-409 Conflict – username already exists
+- 200 OK – login successful0
+- 400 Bad Request – missing/invalid input
+- 401 Unauthorized – invalid credentials
+- 409 Conflict – username already exists
 
 ---
 
 ## Notes / Limitations
 
-No email verification (intentionally omitted)
-No session or JWT handling
-No rate limiting or brute-force protection
-Credentials are stored locally (not environment-based)
-These are considered future improvements, not bugs.
+- No email verification (intentionally omitted)
+- No session or JWT handling
+- No rate limiting or brute-force protection
+- Credentials are stored locally (not environment-based)
+- These are considered future improvements, not bugs.
 
 ---
 
 ## Future Improvements
 
-Email verification
-JWT or session-based authentication
-Environment-based configuration (.env)
-Rate limiting
-Better UI/UX feedback
+- Email verification
+- JWT or session-based authentication
+- Environment-based configuration (.env)
+- Rate limiting
+- Better UI/UX feedback
 
 ---
 
 ## Disclaimer
 
-This project is meant for learning and demonstration purposes.
-Do not use as-is in production.
+- This project is meant for learning and demonstration purposes.
+- Do not use as-is in production.
