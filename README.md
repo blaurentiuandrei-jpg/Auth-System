@@ -64,7 +64,7 @@ CREATE TABLE users (
 ```
 ---
 
-Setup & Run
+## Setup & Run
 1. Clone the repository
 git clone <repo-url>
 cd <project-folder>
@@ -87,7 +87,8 @@ http://127.0.0.1:8000/
 
 ---
 
-API Endpoints
+## API Endpoints
+
 POST /register
 
 Registers a new user.
@@ -118,7 +119,7 @@ Responses
 
 ---
 
-Notes / Limitations
+## Notes / Limitations
 
 No email verification (intentionally omitted)
 No session or JWT handling
@@ -128,7 +129,7 @@ These are considered future improvements, not bugs.
 
 ---
 
-Future Improvements
+## Future Improvements
 
 Email verification
 JWT or session-based authentication
@@ -138,6 +139,7 @@ Better UI/UX feedback
 
 ---
 
-Disclaimer
+## Disclaimer
+
 This project is meant for learning and demonstration purposes.
 Do not use as-is in production.
