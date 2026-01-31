@@ -121,21 +121,21 @@ Responses
 
 ## Notes / Limitations
 
--No email verification (intentionally omitted)
--No session or JWT handling
--No rate limiting or brute-force protection
--Credentials are stored locally (not environment-based)
--These are considered future improvements, not bugs.
+No email verification (intentionally omitted)
+No session or JWT handling
+No rate limiting or brute-force protection
+Credentials are stored locally (not environment-based)
+These are considered future improvements, not bugs.
 
 ---
 
 ## Future Improvements
 
--Email verification
--JWT or session-based authentication
--Environment-based configuration (.env)
--Rate limiting
--Better UI/UX feedback
+Email verification
+JWT or session-based authentication
+Environment-based configuration (.env)
+Rate limiting
+Better UI/UX feedback
 
 ---
 
