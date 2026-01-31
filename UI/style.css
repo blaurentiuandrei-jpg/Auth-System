@@ -1,0 +1,104 @@
+.Auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    margin: 0px;
+}
+
+input {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    width: 200px;
+}
+
+.buttons{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    width: 75px;
+    margin: 5px;
+}
+
+.birthday {
+    position: relative;
+    left: 25px;
+    top: -20px;
+}
+
+.birthday select {
+    position: relative;
+    top: -15px;
+}
+
+.confirm-input {
+    position: relative;
+    left: 25px
+}
+
+.email-input {
+    position: relative;
+    left: 15px;
+    margin: 10px;
+    top: -5px;
+}
+
+p {
+    position: relative;
+    left: 22px;
+
+}
+
+.error {
+    margin: -5px;
+    width: 255px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.error-confirmpw {
+    display: flex;
+    margin: 5px;
+    width: 255px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.error-email {
+    display: flex;
+    margin: 5px;
+    top: -10px;
+    width: 255px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.switch {
+    margin: 0px;
+    width: 315px
+}
+
+.succes-message {
+    margin: -5px;
+    width: 260px;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.hidden {
+    display: none;
+}

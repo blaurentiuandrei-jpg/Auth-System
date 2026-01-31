@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:,">
+    <title>Auth System</title>
+</head>
+<body>
+    <div class="Auth">
+        <h3 id ="auth-message" class = "auth">Welcome back, please login</h3>
+        <input id="username" type="text" placeholder="Enter your username...">
+        <p id="error-username" class="error"></p>
+        <input id="password" type="password" placeholder="Enter your password...">
+        <p id="error-password" class="error"></p>
+        <div class="only-register" id="register-only">
+            <input class="confirm-input" id="confirm-pw" type="password" placeholder="Confirm your password...">
+            <p id="error-confirmpw" class="error-confirmpw"></p>
+            <input type="text" placeholder="Enter your email..." class="email-input" id="email">
+            <p id="error-email" class="error-email"></p>
+            <div class="birthday">
+                <h4>Select your birthday:</h4>
+                <select class="dropwdown" id="year"></select>
+                <select class="dropwdown" id="month"></select>
+                <select class="dropwdown" id="day"></select>
+                <p id="error-birthday" class="error"></p>
+            </div>
+        </div>
+        <p id="succes-message" class="succes-message"></p>
+        <button class="buttons" id="button-mode">Login</button>
+        <p id="text-mode" class="switch">if you don't have an account click <a href="#" id="switch-mode">here.</a></p>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+</html>
