@@ -89,8 +89,9 @@ http://127.0.0.1:8000/
 
 ## API Endpoints
 
-POST /register
 
+POST /register
+```
 Registers a new user.
 Request body
 {
@@ -100,16 +101,18 @@ Request body
   "email": "test@email.com",
   "birthday": "2000-01-01"
 }
+```
 
 POST /login
+```
 Authenticates a user.
-
 Request body
 
 {
   "username": "testuser",
   "password": "password123"
 }
+```
 
 Responses
 - 200 OK – login successful0
