@@ -61,7 +61,7 @@ CREATE TABLE users (
   lastlogin DATE,
   RegisterDate DATETIME DEFAULT CURRENT_TIMESTAMP
 );
-
+```
 ---
 
 Setup & Run
