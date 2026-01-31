@@ -1,4 +1,4 @@
-`# Auth System (Flask + MySQL)
+## Auth System (Flask + MySQL)
 
 A simple authentication system built with Flask, MySQL and a browser-based UI.
 The project demonstrates a complete auth flow: register and login, input validation,
