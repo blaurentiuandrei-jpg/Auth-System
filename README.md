@@ -32,7 +32,6 @@ This is a **demo / entry-level project**, not a production-ready system.
 
 ## Project Structure
 project/
-│
 ├─ api.py # Flask backend (entry point)
 ├─ db.py # Database connection
 ├─ security.py # Password hashing & validation
